@@ -17,5 +17,6 @@ router.get('/listuser', UserController.listUser)
 
 router.post('/newequipamento', EquipamentoController.newEquipamento)
 router.post('/delequipamento', EquipamentoController.delEquipamento)
+router.post('/attequipamento', EquipamentoController.attEquipamento)
 
 module.exports = router
